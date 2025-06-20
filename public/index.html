@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ChatBot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <h2>ChatBot</h2>
+    <ul id="messages"></ul>
+    <form id="form">
+      <input id="input" autocomplete="off" placeholder="Type something..." />
+      <button>Send</button>
+    </form>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
